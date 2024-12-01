@@ -38,8 +38,9 @@
   ],
   "scripts": {
     "dev": "rollup -c rollup.config.ts -w --configPlugin swc3 --bundleConfigAsCjs",
-    "build": "rm -rf ./dist &&rollup -c rollup.config.ts --configPlugin swc3 --bundleConfigAsCjs",
-    "prepublishOnly": "pnpm run build"
+    "build": "rm -rf ./dist && rollup -c rollup.config.ts --configPlugin swc3 --bundleConfigAsCjs",
+    "prepublishOnly": "pnpm run build",
+    "tc": "tsc --no-emit"
   },
   "keywords": [],
   "license": "ISC",

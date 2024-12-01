@@ -5,7 +5,7 @@ export const Footer = () => {
   return (
     <div
       className={clsx(
-        "w-full bg-slate-800 flex items-center justify-center",
+        "w-full bg-[#050505] flex items-center justify-center",
         "h-[100px]",
         "lg:h-28"
       )}
@@ -17,7 +17,7 @@ export const Footer = () => {
           "lg:flex-row lg:items-center lg:justify-between "
         )}
       >
-        <LogoName name="Rabby Wallet" />
+        <LogoName name="Lux Wallet" />
         <div
           className={clsx(
             "flex  text-opacity-60 text-white text-sm font-medium ",
@@ -28,7 +28,7 @@ export const Footer = () => {
           <div className="flex items-center gap-[2px] lg:gap-2 whitespace-nowrap">
             <a
               className="text-white text-sm font-bold"
-              href="https://github.com/RabbyHub/logo"
+              href="https://github.com/luxfi"
               target="_blank"
               rel="noreferrer"
             >
@@ -37,7 +37,7 @@ export const Footer = () => {
             <div>-</div>
             <a
               className="text-white text-sm font-bold"
-              href="https://rabby.io/docs/privacy"
+              href="https://luxwallet-xyz.vercel.app/docs/privacy"
               target="_blank"
               rel="noreferrer"
             >
@@ -45,7 +45,7 @@ export const Footer = () => {
             </a>
           </div>
           <div className="text-[12px] whitespace-nowrap">
-            © 2023 rabby.io All rights reserved.
+            © 2024 Lux Partners Limited. All rights reserved.
           </div>
         </div>
       </div>

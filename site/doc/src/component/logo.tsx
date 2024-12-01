@@ -3,8 +3,8 @@ import Image from "next/image";
 
 export const LogoName = ({
   name,
-  width = 36,
-  height = 32,
+  width = 120,
+  height = 50,
 }: {
   name?: React.ReactNode;
   width?: number;
@@ -13,11 +13,11 @@ export const LogoName = ({
   return (
     <div className="flex items-center gap-[10px]">
       <Image src="/logo.svg" alt="logo" width={width} height={height} />
-      {name && (
+      {/* {name && (
         <span className="text-center text-white text-base font-bold ">
           {name}
         </span>
-      )}
+      )} */}
     </div>
   );
 };

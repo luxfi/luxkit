@@ -13,10 +13,10 @@ export const ConnectButton = () => {
   return (
     <button
       className={clsx(
-        "py-[10px]",
-        isConnected ? "px-[12px] bg-blue-disable" : "px-[15px] bg-blue-default",
+        "py-[13px]",
+        isConnected ? "px-[15px] bg-[#000000] border border-[#fff]  text-white" : "px-[18px] bg-[#fff]  text-black",
         "hover:shadow-button-hover",
-        "h-10 relative  rounded-md flex gap-[6px] items-center justify-center text-center text-white text-base"
+        "h-10 relative  rounded-[50px] flex gap-[6px] items-center justify-center text-center text-base font-[600]"
       )}
       onClick={() => {
         if (!isConnected) {

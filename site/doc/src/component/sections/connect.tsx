@@ -175,7 +175,7 @@ export const ConnectIntro = () => {
   return (
     <div
       className={clsx(
-        "w-full bg-white",
+        "w-full bg-[#050505]",
         "py-[40px] ",
         "lg:pt-[100px] lg:pb-[135px]"
       )}
@@ -183,7 +183,7 @@ export const ConnectIntro = () => {
       <div className="max-w-[1120px] w-full flex flex-col items-center mx-auto">
         <div
           className={clsx(
-            "text-center text-title1",
+            "text-center text-white",
             "text-[20px] font-[510] mb-3 px-[20px]",
             "lg:text-[36px] "
           )}
@@ -192,7 +192,7 @@ export const ConnectIntro = () => {
         </div>
         <div
           className={clsx(
-            "text-center text-body font-normal ",
+            "text-center text-[#bebebe] font-normal ",
             "text-[15px] mb-[24px]",
             "lg:text-[32px] lg:mb-[40px]"
           )}
@@ -231,8 +231,8 @@ export const ConnectIntro = () => {
               target="_blank"
               rel="noreferrer"
               className={clsx(
-                " flex-1 bg-gray-100 rounded flex-col justify-center items-center inline-flex",
-                "hover:shadow",
+                " flex-1 border border-[#c4c4c4] rounded flex-col justify-center items-center inline-flex",
+                "hover:shadow hover:border-[#fff] hover:bg-[#ffffff33]",
                 "gap-[8px] w-[112px] h-[88px]",
                 "lg:gap-[12px] lg:h-32 lg:pt-6 lg:pb-7 "
               )}
@@ -246,7 +246,7 @@ export const ConnectIntro = () => {
               />
               <div
                 className={clsx(
-                  "text-center text-title1",
+                  "text-center text-white",
                   "text-[13px]",
                   "lg:text-[18px]"
                 )}
@@ -300,7 +300,7 @@ function SupportedWallets({
             target="_blank"
             rel="noreferrer"
             className={clsx(
-              " flex flex-col justify-center items-center  hover:bg-card-2 hover:rounded-md",
+              " flex flex-col justify-center items-center border border-[#000] hover:border-[#fff] hover:bg-[#ffffff25] hover:rounded-md",             
               "w-[118px] h-[88px] gap-[8px]",
               "lg:w-[160px] lg:h-[120px] lg:gap-[12px]"
             )}
@@ -312,7 +312,7 @@ function SupportedWallets({
               height={32}
               className="w-[32px] h-[32px] lg:w-[44px] lg:h-[44px]"
             />
-            <div className="text-[13px] lg:text-[16px] font-[510] text-title1">
+            <div className="text-[13px] lg:text-[16px] font-[510] text-white">
               {name}
             </div>
           </a>

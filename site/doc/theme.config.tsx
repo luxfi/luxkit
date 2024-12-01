@@ -4,14 +4,14 @@ import { useConfig } from "nextra-theme-docs";
 import seoConfig from "./seo.config";
 
 const config: DocsThemeConfig = {
-  logo: <span>RabbyKit Doc</span>,
+  logo: <span>LuxKit Doc</span>,
   logoLink: false,
   project: {
-    link: "https://github.com/RabbyHub/rabbykit",
+    link: "https://github.com/luxfi/luxkit",
   },
-  docsRepositoryBase: "https://github.com/RabbyHub/rabbykit/tree/main/site/doc",
+  docsRepositoryBase: "https://github.com/luxfi/luxkit/tree/main/site/doc",
 
-  useNextSeoProps: () => ({ titleTemplate: "%s – RabbyKit" }),
+  useNextSeoProps: () => ({ titleTemplate: "%s – LuxKit" }),
 
   head: () => {
     const { frontMatter: meta } = useConfig();
@@ -30,7 +30,7 @@ const config: DocsThemeConfig = {
         />
         <meta
           name="og:title"
-          content={title ? title + " – Rabbykit" : seoConfig.title.default}
+          content={title ? title + " – Luxkit" : seoConfig.title.default}
         />
         <meta
           name="og:description"

@@ -1,6 +1,6 @@
-# RabbyKit
+# LuxKit
 
-RabbyKit offers a true web3 solution to help connect your Dapp with wallets, effectively addressing the issue of conflicting multiple wallet extensions. It supports the most popular connectors and chains out of the box and provides a beautiful, seamless experience.
+LuxKit offers a true web3 solution to help connect your Dapp with wallets, effectively addressing the issue of conflicting multiple wallet extensions. It supports the most popular connectors and chains out of the box and provides a beautiful, seamless experience.
 
 ## Install
 

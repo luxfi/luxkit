@@ -32,7 +32,7 @@ export function Providers({ children }: { children: React.ReactNode }) {
     if (!initRef.current) {
       initRef.current = true;
       const rabbyKit = createModal({
-        wagmi: config,
+        wagmi: config as any,
       });
       setKit(rabbyKit);
     }

@@ -57,13 +57,13 @@ export function Connect() {
 
         {!isConnected && (
           <button onClick={() => rabbyKitRef.current?.open()}>
-            open RabbyKit
+            open LuxKit
           </button>
         )}
         <br />
 
         <button onClick={() => rabbyKitRef.current?.open({ forceOpen: true })}>
-          force open RabbyKit
+          force open LuxKit
         </button>
         {/* {connectors
           .filter((x) => x.ready && x.id !== connector?.id)

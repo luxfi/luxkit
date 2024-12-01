@@ -7,4 +7,7 @@
       font-family:-apple-system, BlinkMacSystemFont, "Helvetica Neue", Roboto,
       "PingFang SC", "Microsoft Yahei", sans-serif;
     }
+    body {
+      background-color: black;
+    }
   }

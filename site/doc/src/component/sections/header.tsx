@@ -9,6 +9,13 @@ const ClipText = () => {
   return (
     <span
       className=""
+    >
+      Real Web3 Way
+    </span>
+  );
+};
+
+/*
       style={React.useMemo(
         () => ({
           background:
@@ -19,15 +26,11 @@ const ClipText = () => {
         }),
         []
       )}
-    >
-      Real Web3 Way
-    </span>
-  );
-};
+*/
 
 export function Header() {
   return (
-    <section className="bg-title1  flex flex-col  items-center">
+    <section className="bg-black  flex flex-col  items-center" style={{backgroundImage: 'url(./header_bg.png)'}}>
       <div
         className={clsx(
           "w-full max-w-[960px] flex items-center justify-between",
@@ -40,7 +43,7 @@ export function Header() {
           width="110"
           height="28"
           className="md:w-[132px] md:h-[33px]"
-          alt="Rabbykit logo"
+          alt="LuxKit logo"
         />
         <Providers>
           <ConnectButton />

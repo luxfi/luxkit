@@ -23,7 +23,7 @@
   "If you already have installed": "2. 如果您已安装 {name}",
   "Make sure your wallet is enabled and disable other plugin wallets": "启用 {name} 扩展并禁用其他浏览器扩展钱包",
 
-  "Powered by RabbyKit": "由 RabbyKit 提供支持",
+  "Powered by LuxKit": "由 LuxKit 提供支持",
 
   "Connect Wallet": "连接钱包",
   "Unable to Connect Wallet": "无法连接钱包",

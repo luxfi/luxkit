@@ -3,10 +3,10 @@ import { Steps } from "nextra/components";
 <Steps>
 ### Installation
 
-Install RabbyKit and its peer dependencies ([@wagmi/core](https://wagmi.sh/core/getting-started) and [viem](https://viem.sh/)).
+Install LuxKit and its peer dependencies ([@wagmi/core](https://wagmi.sh/core/getting-started) and [viem](https://viem.sh/)).
 
 ```sh npm2yarn
-npm i @rabby-wallet/rabbykit @wagmi/core viem@2.x
+npm i @luxfi/luxkit @wagmi/core viem@2.x
 ```
 
 ### API Keys
@@ -16,16 +16,16 @@ npm i @rabby-wallet/rabbykit @wagmi/core viem@2.x
 
 ### Config
 
-create a config using wagmi's createConfig and create a RabbyKit config;
+create a config using wagmi's createConfig and create a LuxKit config;
 
 ```ts filename="app.ts"
-import { createModal, getDefaultConfig } from "@rabby-wallet/rabbykit";
+import { createModal, getDefaultConfig } from "@luxfi/luxkit";
 import { createConfig, http } from "@wagmi/core";
 import { arbitrum, bsc, mainnet, optimism, polygon } from "@wagmi/core/chains";
 
 export const config = createConfig(
   getDefaultConfig({
-    appName: "RabbyKit example",
+    appName: "LuxKit example",
     projectId: "58a22d2bc1c793fc31c117ad9ceba8d9",
     chains: [mainnet, arbitrum, bsc, optimism, polygon],
     transports: {

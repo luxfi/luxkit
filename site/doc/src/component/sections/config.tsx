@@ -77,14 +77,16 @@ export const ConfigDemo = () => {
   return (
     <div
       className={clsx(
-        "w-full overflow-hidden",
+        "w-full overflow-hidden bg-[#050505]",
         "py-[60px]",
         "lg:pt-[100px] lg:pb-[110px]"
       )}
       style={{
+        /*
         backgroundImage: `url(${bg.src})`,
         backgroundRepeat: "no-repeat",
         backgroundSize: "100% 100%",
+        */
       }}
     >
       <div
@@ -385,7 +387,7 @@ const Preview = ({
             <div className="w-[383px] h-[44px] bg-opacity-60 bg-[#D3D8E0] rounded-[8px]" />
 
             <div className="text-[12px] text-[#6a7587] text-center mt-auto mb-[25px]">
-              powered by RabbyKit
+              powered by LuxKit
             </div>
           </div>
         </div>

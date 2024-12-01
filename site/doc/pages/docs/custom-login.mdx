@@ -1,16 +1,16 @@
 ## Custom Login Method
 
-RabbyKit provides options for customizing login methods, allowing you to set icons, text, and define the behavior upon clicking. This enables you to incorporate special login methods such as email login, which may be required by some DApps.
+LuxKit provides options for customizing login methods, allowing you to set icons, text, and define the behavior upon clicking. This enables you to incorporate special login methods such as email login, which may be required by some DApps.
 
 ```ts filename="app.ts"
-export const rabbyKit = createModal({
+export const luxKit = createModal({
   ...
   customButtons: [
     {
       name: "your login method",
       logo: "https://debank.com/192.png",
       onClick: () => {
-        rabbyKit.close();
+        luxKit.close();
         //your login method
       },
     },
@@ -18,12 +18,12 @@ export const rabbyKit = createModal({
 });
 
 //or
-rabbyKit.setCustomButtons([
+luxKit.setCustomButtons([
   {
     name: "Login with verified email",
     logo: IconEmailLogin,
     onClick: () => {
-      rabbyKit.close();
+      luxKit.close();
       //your login method
     },
   },
@@ -34,7 +34,7 @@ rabbyKit.setCustomButtons([
 
 ```ts filename="app.ts"
 ...
-export const rabbyKit = createModal({
+export const luxKit = createModal({
     ...
   showWalletConnect: false,
 });

@@ -1,29 +1,29 @@
-### RabbyKit Actions
+### LuxKit Actions
 
 ```ts
-const rabbyKit = createModal({
+const luxKit = createModal({
   chains,
   wagmi,
   projectId,
   appName,
 });
-//open RabbyKit modal
-rabbyKit.open();
+//open LuxKit modal
+luxKit.open();
 
 //get open status
-rabbyKit.getOpenState();
+luxKit.getOpenState();
 
 //close modal
-rabbyKit.close();
+luxKit.close();
 
-rabbyKit.getOpenState();
+luxKit.getOpenState();
 
 //set dark mode
-rabbyKit.setTheme("dark");
+luxKit.setTheme("dark");
 ```
 
 ```ts
-type RabbyKitActions = {
+type LuxKitActions = {
   open: (params?: { forceOpen?: boolean } & Hook) => void;
   close: () => void;
   subscribeModalState: (fn: (open: boolean) => void) => () => void;

@@ -1,4 +1,7 @@
 {
   "i18n-ally.localesPaths": ["packages/rabbykit/src/locales"],
-  "i18n-ally.keystyle": "nested"
+  "i18n-ally.keystyle": "nested",
+  "files.associations": {
+    "*.css": "tailwindcss"
+  }
 }
